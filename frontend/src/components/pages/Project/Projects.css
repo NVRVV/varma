@@ -1,0 +1,39 @@
+
+.project-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected {
+    background-color: var(--color-secondary);
+}
+
+.project-button:not(.selected) {
+    background-color: var(--color-bg1);
+}
+.project-button:hover{
+    transition: 0.3s ease-in-out;
+}
+
+#cardsection{
+    border-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 2rem;
+    border: 3px solid var(--color-header);
+    background-color: rgba(169, 204, 227, 0.5);
+}
+
+.link-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border-radius: 2rem;
+    cursor: pointer;
+}
+

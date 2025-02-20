@@ -1,0 +1,8 @@
+.card-details{
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 2rem;
+    border: 2px solid var(--color-header);
+    background-color: rgba(169, 204, 227, 0.5);
+}

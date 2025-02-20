@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme{
+    --font-family: "Judson", "serif";
+
+    --color-header: #A9CCE3;
+    --color-bg1: #FFFFFF;
+    --color-bg2: #F0E6D9;
+    --color-primary: #3A3B3C;
+    --color-secondary: #F58231;
+
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--color-bg1);
+    color: var(--color-primary);
+}
+
