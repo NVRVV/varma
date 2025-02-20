@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/Global.css';
+import namaste from "../assets/namaste.png";
+import linked from "../assets/Linked.png";
+import github from "../assets/Github.png";
+import instagram from "../assets/Instagram.png";
 
 const Home = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -26,7 +30,7 @@ const Home = () => {
           <h1 className='text-4xl text-start italic'>Hello, I'm <span className='text-secondary'>Varma Namepalli</span></h1>
           <h2 id='text-animation' className='text-3xl mt-5'>I'm <span className='text-secondary'></span></h2>
           <div className="flex justify-center mt-5">
-            <img id='img1' className='w-40' src="src/assets/namaste.png" alt="Namaste" />
+            <img id='img1' className='w-40' src={namaste} alt="Namaste" />
           </div>
           <p className='text-justify mt-5'>
             My goal is to leverage my expertise in building responsive and intuitive Web and Mobile Applications 
@@ -34,13 +38,13 @@ const Home = () => {
           </p>
           <div className="flex justify-center space-x-4 mt-5">
             <a href="https://www.linkedin.com/in/venkata-ram-vishal-varma-namepalli">
-              <img src="src/assets/Linked.png" alt="LinkedIn" className="w-8" />
+              <img src={linked} alt="LinkedIn" className="w-8" />
             </a>
             <a href="https://github.com/NVRVV">
-              <img src="src/assets/Github.png" alt="GitHub" className="w-8" />
+              <img src={github} alt="GitHub" className="w-8" />
             </a>
             <a href="https://www.instagram.com/mr.vv_003/">
-              <img src="src/assets/Instagram.png" alt="Instagram" className="w-8" />
+              <img src={instagram} alt="Instagram" className="w-8" />
             </a>
           </div>
           <div className="mt-5">
@@ -58,13 +62,13 @@ const Home = () => {
             </p>
             <div id='social_icons' className="flex  space-x-4 mt-5">
               <a href="https://www.linkedin.com/in/venkata-ram-vishal-varma-namepalli">
-                <img src="src/assets/Linked.png" alt="LinkedIn" className="w-10" />
+                <img src={linked} alt="LinkedIn" className="w-10" />
               </a>
               <a href="https://github.com/NVRVV">
-                <img src="src/assets/Github.png" alt="GitHub" className="w-10" />
+                <img src={github} alt="GitHub" className="w-10" />
               </a>
               <a href="https://www.instagram.com/mr.vv_003/">
-                <img src="src/assets/Instagram.png" alt="Instagram" className="w-10" />
+                <img src={instagram} alt="Instagram" className="w-10" />
               </a>
             </div>
             <div className="mt-5">
@@ -72,7 +76,7 @@ const Home = () => {
             </div>
           </div>
           <div className='flex-6 h-max  flex justify-center'>
-            <img id='img1' className='w-80' src="src/assets/namaste.png" alt="Namaste" />
+            <img id='img1' className='w-80' src={namaste} alt="Namaste" />
           </div>
         </section>
       )}

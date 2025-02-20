@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import about from '../../assets/about.png';
 
 const About = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -23,7 +24,7 @@ const About = () => {
         <section className="flex flex-col items-center pt-20 pb-10 px-5 text-xl bg-bg2">
           <h1 className='text-5xl mt-10 text-center'>About <span className='text-secondary'>Me</span></h1>
           <div className="flex justify-center">
-            <img src="src/assets/about.png" alt="About Me" className="w-60" />
+            <img src={about} alt="About Me" className="w-60" />
           </div>
           
           <p className='text-justify mt-5'>
@@ -40,7 +41,7 @@ const About = () => {
         <section className="flex flex-row justify-center pt-20 pb-20 px-20 text-2xl bg-bg2 ">
           
           <div className="flex-5 flex justify-center">
-            <img src="src/assets/about.png" alt="About Me" className="w-70" />
+            <img src={about} alt="About Me" className="w-70" />
           </div>
           
           <div className="flex-10 ml-10">

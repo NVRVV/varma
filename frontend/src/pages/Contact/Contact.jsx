@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import emailjs from 'emailjs-com';
+import contact from '../../assets/contact_img.png';
 
 const Contact = () => {
   const form = useRef();
@@ -88,7 +89,7 @@ const Contact = () => {
             </div>
 
             <div className="flex items-end">
-              <img src="src/assets/contact_img.png" alt="Contact" className="w-60" />
+              <img src={contact} alt="Contact" className="w-60" />
             </div>
           </form>
         </section>
