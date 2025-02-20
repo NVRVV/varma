@@ -80,10 +80,10 @@ const Education = () => {
                                 let altText;
 
                                 if (detail.type === 'Education') {
-                                    imageSrc = 'src/assets/education.png';
+                                    imageSrc = {education};
                                     altText = 'Education Icon';
                                   } else {
-                                    imageSrc = 'src/assets/Work.png';
+                                    imageSrc = {education};
                                     altText = 'Work Icon';
                                   }
 

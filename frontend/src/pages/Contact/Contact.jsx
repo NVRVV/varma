@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import emailjs from 'emailjs-com';
 import contact from '../../assets/contact_img.png';
+import linked from "../assets/Linked.png";
+import github from "../assets/Github.png";
+import instagram from "../assets/Instagram.png";
 
 const Contact = () => {
   const form = useRef();
@@ -98,13 +101,13 @@ const Contact = () => {
       <footer className='footer'>
         <div className="social">
           <a href="https://www.linkedin.com/in/venkata-ram-vishal-varma-namepalli">
-            <img src="src/assets/Linked.png" alt="LinkedIn" />
+            <img src={linked} alt="LinkedIn" />
           </a>
           <a href="https://github.com/NVRVV">
-            <img src="src/assets/Github.png" alt="GitHub" />
+            <img src={github} alt="GitHub" />
           </a>
           <a href="https://www.instagram.com/mr.vv_003/">
-            <img src="src/assets/Instagram.png" alt="Instagram" />
+            <img src={instagram}alt="Instagram" />
           </a>
         </div>
 
