@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Education.css';
-import { fetchDetailsData } from '../../../services/api';
+import { fetchDetailsData } from '../../services/api';
 
 const Education = () => {
     const [isMobile, setIsMobile] = useState(false);
