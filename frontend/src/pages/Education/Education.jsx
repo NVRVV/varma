@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Education.css';
 import { fetchDetailsData } from '../../services/api';
+import education from '../../assets/education.png';
+import work from '../../assets/Work.png';
 
 const Education = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -48,10 +50,10 @@ const Education = () => {
                                 let altText;
 
                                 if (detail.type === 'Education') {
-                                    imageSrc = 'src/assets/education.png';
+                                    imageSrc = {education};
                                     altText = 'Education Icon';
                                 } else {
-                                    imageSrc = 'src/assets/Work.png';
+                                    imageSrc = {education};
                                     altText = 'Work Icon';
                                 }
 

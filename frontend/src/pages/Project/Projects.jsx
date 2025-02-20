@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Projects.css';
+import sample from '../../assets/sample_img.png';
 
 const Projects = () => {
   const [selectedButton, setSelectedButton] = useState('All');
@@ -42,19 +43,19 @@ const Projects = () => {
         <div className="flex flex-wrap justify-center">
             <div id='cardsection' className={`card justify-items-center p-2 m-2 ${selectedButton === 'Web' || selectedButton === 'All' ? '' : 'hidden'}`}>
                 <h2 className='text-2xl'>Web Project</h2>
-                <img src="src\assets\sample_img.png" alt="" className='w-50 h-30'/>
+                <img src={sample} alt="" className='w-50 h-30'/>
                 <p className='text-primary'>This is a web project</p>
                 <button className="link-button">Link</button>
             </div>
             <div id='cardsection' className={`card justify-items-center p-2 m-2 ${selectedButton === 'Mobile' || selectedButton === 'All' ? '' : 'hidden'}`}>
                 <h2 className='text-2xl'>Mobile Project</h2>
-                <img src="src\assets\sample_img.png" alt="" className='w-50 h-30'/>
+                <img src={sample} alt="" className='w-50 h-30'/>
                 <p className='text-primary'>This is a mobile project</p>
                 <button className="link-button">Link</button>
             </div>
             <div id='cardsection' className={`card justify-items-center p-2 m-2 ${selectedButton === 'UI & UX' || selectedButton === 'All' ? '' : 'hidden'}`}>
                 <h2 className='text-2xl'>UI & UX Design</h2>
-                <img src="src\assets\sample_img.png" alt="" className='w-50 h-30'/>
+                <img src={sample} alt="" className='w-50 h-30'/>
                 <p className='text-primary'>This is a UI & UX Design</p>
                 <button className="link-button">Link</button>
             </div>
