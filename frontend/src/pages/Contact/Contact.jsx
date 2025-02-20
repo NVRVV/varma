@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import emailjs from 'emailjs-com';
 import contact from '../../assets/contact_img.png';
-import linked from "../assets/Linked.png";
-import github from "../assets/Github.png";
-import instagram from "../assets/Instagram.png";
+import linked from "../../assets/Linked.png";
+import github from "../../assets/Github.png";
+import instagram from "../../assets/Instagram.png";
 
 const Contact = () => {
   const form = useRef();
