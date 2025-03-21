@@ -22,7 +22,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    const phonePattern = /^\d{10}$/;
+  const phonePattern = /^\d{10}$/;
     if (!phonePattern.test(phoneNumber)) {
       alert('Please enter a valid 10-digit mobile number.');
       return;
