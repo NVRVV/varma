@@ -11,20 +11,20 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-header text-primary pt-4 pb-4 pl-6 pr-6 fixed w-full top-0 left-0 shadow-md z-50">
+    <header className="bg-header text-primary px-2 py-3 fixed w-full top-0 left-0 shadow-md z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-3xl pl-15 md:text-5xl font-bold">
+        <h1 className="text-3xl px-2 md:text-4xl font-bold">
           <a href="#home">Varma <span className="text-secondary">Namepalli</span></a>
         </h1>
 
         {/* Desktop Navigation */}
-        <nav className="hidden pr-15 md:flex">
+        <nav className="hidden px-2 md:flex">
           <ul className="flex space-x-6">
-            <li><a id='nav' href="#home" className="text-2xl md:text-4xl p-3">Home</a></li>
-            <li><a id='nav' href="#about" className="text-2xl md:text-4xl p-3">About</a></li>
-            <li><a id='nav' href="#projects" className="text-2xl md:text-4xl p-3">Projects</a></li>
-            <li><a id='nav'href="#education" className="text-2xl md:text-4xl p-3">Education</a></li>
+            <li><a id='nav' href="#home" className="text-3xl lg:text-4xl p-3">Home</a></li>
+            <li><a id='nav' href="#about" className="text-3xl lg:text-4xl p-3">About</a></li>
+            <li><a id='nav' href="#projects" className="text-3xl lg:text-4xl p-3">Projects</a></li>
+            <li><a id='nav'href="#education" className="text-3xl lg:text-4xl p-3">Education</a></li>
           </ul>
         </nav>
 

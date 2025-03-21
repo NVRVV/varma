@@ -21,10 +21,10 @@ const About = () => {
 
       {/* Conditional Rendering Based on Screen Size */}
       {isMobile ? (
-        <section className="flex flex-col items-center pt-20 pb-10 px-5 text-xl bg-bg2">
+        <section className="flex flex-col items-center py-5 px-3 text-xl bg-bg2">
           <h1 className='text-5xl mt-10 text-center'>About <span className='text-secondary'>Me</span></h1>
-          <div className="flex justify-center">
-            <img src={about} alt="About Me" className="w-60" />
+          <div className="flex justify-center ">
+            <img src={about} alt="About Me" className="w-50" />
           </div>
           
           <p className='text-justify mt-5'>
@@ -38,9 +38,9 @@ const About = () => {
           </p>
         </section>
       ) : (
-        <section className="flex flex-row justify-center pt-20 pb-20 px-20 text-2xl bg-bg2 ">
+        <section className="flex flex-row justify-center py-10 px-5 text-2xl bg-bg2 ">
           
-          <div className="flex-5 flex justify-center">
+          <div className="flex-9 flex justify-center">
             <img src={about} alt="About Me" className="w-70" />
           </div>
           
